@@ -1,5 +1,4 @@
 #pragma once
-
 #include <string>
 
-std::string formatter(const std::string& message);
+std::string format(const std::string& text);

@@ -1,7 +1,4 @@
 
-#ifndef SOLVER_H
-#define SOLVER_H
+#pragma once
 
-void solve(float a, float b, float c, float& x1, float& x2);
-
-#endif
+double solve_equation(double a, double b, double c);
